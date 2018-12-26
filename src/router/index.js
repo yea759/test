@@ -5,9 +5,9 @@ import HelloWorld from '@/components/HelloWorld'
 Vue.use(Router)
 
 export default new Router({
-    base: '/test/',
+    base: '/test',
     routes: [{
-        path: '/test/',
+        path: '/',
         name: 'HelloWorld',
         component: HelloWorld
     }]
